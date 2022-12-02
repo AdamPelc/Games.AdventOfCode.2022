@@ -16,5 +16,5 @@ for line in data:
     else:
         sum = sum + int(line.strip('\n'))
 
-file_result = open(os.path.dirname(os.path.realpath(__file__)) + '/result', 'w')
-file_result.write('Answer is: ' + str(max) + '\n')
+file_result = open(os.path.dirname(os.path.realpath(__file__)) + '/result.part-1', 'w')
+file_result.write('Answer for part 1 is: ' + str(max) + '\n')
